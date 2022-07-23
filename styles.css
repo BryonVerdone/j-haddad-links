@@ -41,17 +41,21 @@ img {
 }
 
 a {
+  border: transparent;
   border-radius: 8px;
   padding: 10px;
   border: none;
   text-align: center;
   width: 100%;
+  max-width: 1170px;
+
   text-decoration: none;
   background-color: purple;
   color: black;
   transition: 500ms;
 }
 a:hover {
+  border: 1.5px solid purple;
   color: white;
-  background-color: #f247bf;
+  background-color: transparent;
 }

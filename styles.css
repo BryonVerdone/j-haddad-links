@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 188, 1) 100%
+  );
+  font-family: 'Capriola', sans-serif;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+}
+.img-container {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.link-container {
+  width: 50%;
+  margin: 30px auto;
+  /* padding: 0 30px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+a {
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  background-color: purple;
+  color: black;
+  transition: 500ms;
+}
+a:hover {
+  color: white;
+  background-color: #f247bf;
+}
